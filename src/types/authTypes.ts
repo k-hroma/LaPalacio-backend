@@ -10,6 +10,7 @@ interface LoginUser {
 }
 
 interface DataUser { 
+  id?: string,
   nombre: string,
   email: string
 }

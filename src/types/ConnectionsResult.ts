@@ -9,6 +9,6 @@ export interface ConnectionResult {
 export interface QueryResponse { 
   success: boolean,
   message: string,
-  data?: BookI | BookI[] | RegisterUser | RegisterUser[] | LoginUser | LoginUser[] | DataUser | DataUser [] | null
+  data?: BookI | BookI[] | RegisterUser | RegisterUser[] | LoginUser | LoginUser[] | DataUser | DataUser [] | string| null
   error?: string
 }
